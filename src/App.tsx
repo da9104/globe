@@ -1,9 +1,9 @@
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import ThreeGlobe from "three-globe";
 import * as THREE from "three";
 import json from "./globe.json";
 import { Canvas, useFrame } from "react-three-fiber";
-import { OrbitControls } from "@react-three/drei";
+// import { OrbitControls } from "@react-three/drei";
 import  "./App.css";
 
 const Globe = new ThreeGlobe()
